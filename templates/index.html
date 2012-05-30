@@ -7,7 +7,7 @@
 </head>
 <body>
 	{% if message %}<h1>{{ message }}</h1>{% endif %}
-
+	{% if message %}<div class="tweettd"><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script><a href="https://twitter.com/intent/tweet?text={{ message }}&url=http://atsui.jp" target="_blank">tweet</a></div>{% endif %}
 </body>
 </html>
 
